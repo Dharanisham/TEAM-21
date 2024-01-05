@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skills.css">
+    <title>Skills | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-rows: auto auto 1fr auto auto;
+            min-height: 100vh;
+            margin-bottom: 100px;
+            background-image:  url("mesh-background-portfolio-lglines.jpg");
+        }
+
+        #grid1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        #grid1 h1 {
+            margin: 0;
+        }
+
+        #grid2 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+        }
+
+        #grid2 button {
+            margin-left: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            transition: background-color 0.3s;
+        }
+
+        #grid2 button:hover {
+            background-color: #333;
+        }
+
+        #grid2 button:active {
+            background-color: #666;
+        }
+
+        #grid3 {
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        #skills-content {
+            max-width: 800px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #grid4 {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #grid5 {
+            display: flex;
+            justify-content: center;
+            margin-right: 970px;
+        }
+
+        #grid6 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+        }
+
+        #grid6 button {
+            margin-left: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            transition: background-color 0.3s;
+        }
+
+        #grid6 button:hover {
+            background-color: #2074a0;
+        }
+
+        #grid6 button:active {
+            background-color: #105e80;
+        }
+
+        #icons {
+            text-align: center;
+        }
+
+        #download button {
+            padding: 10px;
+        }
+
+        #download a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        #buttons {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="grid1">
+        <div>
+            <h1 id="Portfolio"><b>Portfolio | Dharanish A M</b></h1>
+        </div>
+    </div>
+
+    <div id="grid2">
+        <div style="text-align: right;" id="navi">
+            <button onclick="openPage('index.html')" id="home">Home</button>
+            <button onclick="openPage('about.html')" id="about">About</button>
+            <button onclick="openPage('skills.html')" id="skills">Skills</button>
+            <button onclick="openPage('contact.html')" id="contact">Contact</button>
+        </div>
+    </div>
+
+    <div id="grid3">
+        <div id="skills-content">
+            <h2>My Skills</h2>
+            <p>Passionate and detail-oriented computer science enthusiast with a flair for crafting innovative solutions through code. As a dedicated learner, I am constantly exploring new technologies and expanding my skills. Proficient in languages such as JavaScript, Python, and Java, I specialize in web development, with expertise in HTML5, CSS3, and React.</p>
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+           
+            </ul>
+            <h2>Web Development</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>React</li>
+            
+            </ul>
+          
+        </div>
+    </div>
+
+    <div id="grid4">
+    </div>
+    <script>
+        function openPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
