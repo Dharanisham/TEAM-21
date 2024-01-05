@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: auto auto 1fr auto auto; 
-    min-height: 100vh; 
+    grid-template-rows: auto auto 1fr auto auto;
+    min-height: 100vh;
     margin-bottom: 100px;
-    background-image:  url("mesh-background-portfolio-lglines.jpg");
+    background-image: url("mesh-background-portfolio-lglines.jpg");
 }
 
 #grid1 {
@@ -29,15 +29,13 @@ body {
 }
 
 #grid2 button {
-    margin-left: 10px; 
-    background-color: #000; 
+    margin-left: 10px;
+    background-color: #000;
     color: #fff;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding: 8px 15px;
-    transition: background-color 0.3s; 
-
-    
+    transition: background-color 0.3s;
 }
 
 #grid2 button:hover {
@@ -53,7 +51,7 @@ body {
     justify-content: flex-start;
     padding-top: 200px;
     padding-left: 100px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #about1st {
@@ -62,7 +60,7 @@ body {
 
 #about1st p {
     margin: 0;
-    font-size: 2em; 
+    font-size: 2em;
 }
 
 #grid4 {
@@ -83,10 +81,6 @@ body {
     justify-content: center;
     margin-right: 1000px;
 }
-#grid5 {
-    display: flex;
-    justify-content: center;
-}
 
 .icons {
     display: flex;
@@ -98,7 +92,6 @@ body {
     margin-left: 10px;
 }
 
-
 #grid6 {
     display: flex;
     justify-content: flex-end;
@@ -107,13 +100,13 @@ body {
 }
 
 #grid6 button {
-    margin-left: 10px; 
-    background-color: #3498db; 
-    color: #fff; 
+    margin-left: 10px;
+    background-color: #3498db;
+    color: #fff;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding: 8px 15px;
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
 }
 
 #grid6 button:hover {
@@ -121,7 +114,7 @@ body {
 }
 
 #grid6 button:active {
-    background-color: #105e80; 
+    background-color: #105e80;
 }
 
 #icons {
@@ -147,5 +140,53 @@ body {
 }
 
 #about1st #mee {
-    color: #003399; 
+    color: #003399;
+}
+
+@media only screen and (max-width: 768px) {
+    #grid3 {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    #grid4 {
+        margin-right: 20px;
+        margin-top: 0;
+    }
+
+    #grid5 {
+        margin-right: 20px;
+    }
+}
+.icons {
+    display: flex;
+}
+
+.social-icon {
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+#grid2 button {
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+#grid2 button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+#grid2 button:active {
+    background-color: #666;
 }
