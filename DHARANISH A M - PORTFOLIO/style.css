@@ -81,8 +81,23 @@ body {
 #grid5 {
     display: flex;
     justify-content: center;
-    margin-right: 970px;
+    margin-right: 1000px;
 }
+#grid5 {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+}
+
+.social-icon {
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 
 #grid6 {
     display: flex;
