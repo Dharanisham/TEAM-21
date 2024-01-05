@@ -15,6 +15,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
+    padding-top: 20px;
+}
+
+#grid1 h1 {
+    margin: 0;
 }
 #grid3 {
     display: flex;
@@ -53,7 +58,6 @@ body {
     background-color: #2074a0;
 }
 
-
 #grid2 {
     display: flex;
     justify-content: flex-end;
@@ -62,11 +66,11 @@ body {
 }
 
 #grid2 button {
-    margin-left: 10px; 
-    background-color: #000; 
-    color: #fff; 
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding: 8px 15px;
     transition: background-color 0.3s;
 }
@@ -81,4 +85,22 @@ body {
 
 #grid2 button#about {
     background-color: #000000;
+}
+#grid2 button {
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+#grid2 button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+#grid2 button:active {
+    background-color: #666;
 }
