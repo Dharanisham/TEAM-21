@@ -82,4 +82,21 @@ body {
   margin: 0 10px;
   height: 30px;
 }
+#grid2 button {
+  margin-left: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
 
+#grid2 button:hover {
+  background-color: #333;
+  transform: scale(1.1);
+}
+
+#grid2 button:active {
+  background-color: #666;
+}
